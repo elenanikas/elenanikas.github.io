@@ -1,9 +1,10 @@
 body {
 	font-family: Helvetica,Arial,sans-serif;
-	font-size: 32px;
+	font-size: 100px;
+	color:pink;
 }
 
 a {
-	color:red;
+	color:pink;
 }
 
