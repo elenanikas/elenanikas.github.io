@@ -1,7 +1,11 @@
 body {
 	font-family: Helvetica,Arial,sans-serif;
-	font-size: 100px;
-	color:pink;
+	font-size: 30px;
+	margin-top: 5vh;
+	margin-bottom: 5vh;
+	margin-left: 3vw;
+	margin-right: 3vw;
+	color:black;
 }
 
 a {
@@ -9,28 +13,30 @@ a {
 }
 
 
-.lightgreytype{
-	color:black;
-	opacity: 40%;
-	font-weight: bold;
-}
-
 
 * {
 	box-sizing: border-box;
   }
   
   body {
-	font-size: 30px;
+
   }
   
   .title {
-	font-size: 100px;
+	font-size: 11vw;
 	color: black;
-	opacity:40%;
+	opacity:20%;
 	font-weight: bold;
+	line-height: 80%;
+	letter-spacing: -0.05em;
+	padding-bottom: 1%;
   }
   
+  .bottomlinetitle {
+	color: black;
+	opacity: 70%;
+}
+
   .subtitle {
 	display: flex;
 	flex-wrap: wrap;
