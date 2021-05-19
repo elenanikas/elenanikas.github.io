@@ -16,6 +16,13 @@ a {
 }
 
 
+.title{
+	color: black;
+	opacity:40%;
+	font-weight: bold;
+}
+
+
 * {
 	box-sizing: border-box;
   }
