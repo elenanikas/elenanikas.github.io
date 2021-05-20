@@ -1,11 +1,11 @@
 body {
 	font-family: Helvetica,Arial,sans-serif;
-	font-size: 3vw;
+	font-size: 2vw;
 	margin-top: 5vh;
 	margin-bottom: 5vh;
 	margin-left: 3vw;
 	margin-right: 3vw;
-	color:black;
+	color:rgb(48, 48, 48);
 }
 
 a {
@@ -21,17 +21,17 @@ a {
   
   .title {
 	font-size: 11vw;
-	color: black;
-	opacity:20%;
+	color: rgb(187, 187, 187);
+	opacity:100%;
 	font-weight: bold;
 	line-height: 80%;
 	letter-spacing: -0.05em;
-	padding-bottom: 1%;
+	padding-bottom: 4%;
   }
   
   .bottomlinetitle {
 	color: black;
-	opacity: 70%;
+	opacity: 60%;
 }
 
   .subtitle {
@@ -41,6 +41,7 @@ a {
 	width: 100%;
 	top: 0px;
 	left: 0px;
+	font-size: 3vw;
   }
   
   .left {
@@ -86,3 +87,6 @@ a {
   }
   
 
+  .text-red{
+	  color: brown;
+  }
