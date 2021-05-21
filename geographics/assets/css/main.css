@@ -27,6 +27,7 @@ a {
 	line-height: 80%;
 	letter-spacing: -0.05em;
 	padding-bottom: 4%;
+	padding: 20px;
   }
   
   .bottomlinetitle {
@@ -46,10 +47,15 @@ a {
   
   .left {
 	width: 50%;
+	padding: 20px;
+	backdrop-filter:blur(10px);
+
   }
   
   .right {
 	width: 50%;
+	padding: 20px;
+	backdrop-filter:blur(10px);
   }
   
   .main {
@@ -62,6 +68,7 @@ a {
 	display: flex;
 	flex-wrap: wrap;
 	background-color: white;
+
 
   }
   
@@ -92,4 +99,8 @@ a {
 
   .text-red{
 	  color: brown;
+  }
+
+  .textcon {
+	  margin-bottom: 500px;
   }
