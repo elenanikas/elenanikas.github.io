@@ -1,5 +1,5 @@
 body {
-	font-family: Helvetica,Arial,sans-serif;
+	font-family: Helvetica ,Arial,sans-serif;
 	font-size: 2vw;
 	margin-top: 5vh;
 	margin-bottom: 5vh;
@@ -26,22 +26,25 @@ a {
 	font-weight: bold;
 	line-height: 80%;
 	letter-spacing: -0.05em;
-	padding-bottom: 4%;
 	padding: 20px;
   }
 
 
   .subtitle em{
 	  color:rgb(187, 187, 187);
+	  font-weight: bold;
+
 
   }
   
 	.bold{
 		font-weight: bold;
-		color: black;
-		opacity: 60%;
+		color: rgb(105,105,105)
 	}
 
+	.bigger{
+		font-size: 3.5vw;
+	}
 
   .bottomlinetitle {
 	color: black;
@@ -56,19 +59,19 @@ a {
 	top: 0px;
 	left: 0px;
 	font-size: 3vw;
+	word-spacing: -.7vw;
+	margin-top: 6vh;
+	background-color: white;
   }
   
   .left {
 	width: 50%;
 	padding: 20px;
-	backdrop-filter:blur(10px);
-
   }
   
   .right {
 	width: 50%;
 	padding: 20px;
-	backdrop-filter:blur(10px);
   }
   
   .main {
@@ -80,14 +83,12 @@ a {
 	width: 50%;
 	display: flex;
 	flex-wrap: wrap;
-	background-color: white;
   }
   
   .life {
 	width: 50%;
 	display: flex;
 	flex-wrap: wrap;
-	background-color: white;
   }
   
   .thumbnail {
@@ -95,7 +96,6 @@ a {
 	font-weight: normal;
 	width: 50%;
 	padding: 20px;
-
   }
   
   .thumbnail.landscape {
@@ -108,43 +108,67 @@ a {
   }
   
 
-  .text-red{
-	  color:pink;
-  }
-
-
   /* subsection 2 */
 
   .subsection2{
 	display: flex;
 	flex-wrap: wrap;
-
   }
 
   .textleft{
 	width: 50%;
-	padding: 20px;
-	background-color: white;
+	padding: 20px
   }
 
   .textright{
 	width: 50%;
 	padding: 20px;
-	background-color: white;
+	
+
   }
 
   .textcon {
-	margin-bottom: 100vh;
+	margin-bottom: 10vh;
 	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
-	background-color: white;
 }
 
-.bigmargin{
-	margin-top: 10vh;
-}
+
 .geotext{
 	width: 100%;
+}
 
+
+.textleft p{
+	margin-bottom: 3vh;
+	font-weight: lighter;
+}
+
+.lesspad{
+	padding: 0px;
+}
+
+.colorblue{
+	color:#016fb9 ;
+}
+
+.textright p{
+	font-size: 1.5vw;
+	margin-top: 3vh;
+	font-weight: lighter;
+}
+
+.price{
+	font-size: 2.3vw;
+}
+
+em{
+	font-weight: normal;
+}
+
+.cart{
+	font-weight: bold;
+	color: rgb(255, 111, 21);
+	font-size: 2vw;
 }
