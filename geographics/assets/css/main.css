@@ -14,6 +14,7 @@ a {
 
 
 
+
 * {
 	box-sizing: border-box;
   }
@@ -21,20 +22,24 @@ a {
   
   .title {
 	font-size: 11vw;
-	color: rgb(187, 187, 187);
+	color: rgb(171, 171, 171);
 	opacity:100%;
 	font-weight: bold;
 	line-height: 80%;
 	letter-spacing: -0.05em;
-	padding: 20px;
+	padding: 1.5vw;
+
+	
   }
 
+  .hide {
+	opacity: 0;
+	transition: 1s;
+  }
 
   .subtitle em{
-	  color:rgb(187, 187, 187);
+	  opacity: 60%;
 	  font-weight: bold;
-
-
   }
   
 	.bold{
@@ -47,8 +52,8 @@ a {
 	}
 
   .bottomlinetitle {
-	color: black;
-	opacity: 60%;
+	color: rgb(79, 77, 77);
+	opacity: 100%;
 }
 
   .subtitle {
@@ -66,12 +71,12 @@ a {
   
   .left {
 	width: 50%;
-	padding: 20px;
+	padding: 2vw;
   }
   
   .right {
 	width: 50%;
-	padding: 20px;
+	padding: 2vw;
   }
   
   .main {
@@ -95,7 +100,7 @@ a {
 	color: black;
 	font-weight: normal;
 	width: 50%;
-	padding: 20px;
+	padding: 2vw;
   }
   
   .thumbnail.landscape {
@@ -105,6 +110,7 @@ a {
   .thumbnail img {
 	width: 100%;
 	display: block;
+	margin-bottom: 1vh;
   }
   
 
@@ -117,12 +123,12 @@ a {
 
   .textleft{
 	width: 50%;
-	padding: 20px
+	padding: 2vw;
   }
 
   .textright{
 	width: 50%;
-	padding: 20px;
+	padding: 2vw;
 	
 
   }
