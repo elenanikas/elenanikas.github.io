@@ -3,10 +3,10 @@ $(document).ready(function () {
       var y = $(this).scrollTop();
       console.log(y);
   
-      if (y > 0) {
+      if (y > 250) {
         $(".first").addClass("hide");
       } else {
-        $(".first").removeClass("show");
+        $(".first").removeClass("hide");
       }
 
       if (y > 500) {
