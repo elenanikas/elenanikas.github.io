@@ -9,7 +9,12 @@ body {
 }
 
 a {
-	color:pink;
+	color:white;
+	text-decoration: none;	
+	padding-left: 1.5vw;
+	padding-bottom: 3vh;
+	font-size: 1.5vw;
+	
 }
 
 
@@ -27,7 +32,10 @@ a {
   
   .title {
 	font-size: 11vw;
-	color: rgb(171, 171, 171);
+	color: rgb(255, 111, 21);
+	
+	
+	(171, 171, 171);
 	opacity:100%;
 	font-weight: bold;
 	line-height: 80%;
@@ -180,6 +188,7 @@ text-indent: 0px;
 .textright p{
 	font-size: 1.5vw;
 	margin-top: 1.5vh;
+	margin-bottom: 3vh;
 	font-weight: lighter;
 }
 
@@ -195,4 +204,14 @@ em{
 	font-weight: bold;
 	color: rgb(255, 111, 21);
 	font-size: 2vw;
+}
+
+
+.links{
+	background-color: rgb(255, 111, 21);
+	text-align: center;
+	position: static;
+	height: 10vh;
+	width: 100vw;
+
 }
