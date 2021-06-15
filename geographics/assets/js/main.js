@@ -9,7 +9,7 @@ $(document).ready(function () {
         $(".first").removeClass("hide");
       }
 
-      if (y > 5600) {
+      if (y > 5300) {
         $(".first").addClass("appear");
       } else {
         $(".first").removeClass("appear");

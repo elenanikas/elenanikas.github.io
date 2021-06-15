@@ -1,5 +1,5 @@
 body {
-	font-family: Helvetica,Arial,sans-serif;
+	font-family: 'Dela Gothic One';
 	font-size: 6VW;
 	color:coral;
 	text-align: center;
@@ -7,35 +7,19 @@ body {
 
 }
 
-.name{
-	color: blueviolet;
-	font-size: 10vw;
-	animation: slide-in 3s forwards; 
 
-}
-
-
-
-@keyframes slide-in {
-	0%{
-	transform: translateX(-700px);
-	}
-	100%{
-	transform: translateX(0);
-	}
-
-}
 
 
 
 a {
-	color:blue;
+	color:#fff0e7;
+	text-decoration: none;
 }
 
 .links{
 	width: 100vw;
-	margin-top: 20vh;
-	background-color: yellow;
+	margin-top: 10vh;
+	margin-bottom: 20vh;
 	padding: 4vw;
 }
 
@@ -58,4 +42,44 @@ a {
 	user-select: none;
 	letter-spacing: -2vw;
 
+}
+
+
+body {
+   background-color: #ff6f15;
+   margin:0;
+}
+
+.patterns {
+  height: 100vh;
+}
+
+
+
+svg text {
+  font-family: Lora;
+  letter-spacing: 10px;
+  stroke: #fff5ee;
+  font-size: 150px;
+  font-weight: 700;
+  stroke-width: 3;
+ 
+  animation: textAnimate 5s infinite alternate;
+  
+}
+
+@keyframes textAnimate {
+  0% {
+    stroke-dasharray: 0 50%;
+    stroke-dashoffset:  20%;
+    fill:hsl(0.06, 1%, 54%)
+
+  }
+  
+  100% {
+    stroke-dasharray: 50% 0;
+    stroke-dashoffstet: -20%;
+    fill: hsla(0.06, 1%, 54%,10%)
+  }
+  
 }
