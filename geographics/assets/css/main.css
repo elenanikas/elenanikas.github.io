@@ -13,9 +13,16 @@ a {
 	text-decoration: none;	
 	padding-bottom: 3vh;
 	font-weight: bold;
+	font-size: 2vw;	
+}
 
-	font-size: 2vw;
-	
+.footer a{
+	color: white;
+	font-weight: normal;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	padding-bottom: 0;
 }
 
 * {
@@ -26,7 +33,9 @@ a {
 	  text-align: right;
 	  padding-right: 1.5vw;
 	  padding-top: 1.5vh;
-  }
+	}
+	
+
   
   .title {
 	font-size: 11vw;
@@ -37,6 +46,19 @@ a {
 	letter-spacing: -0.05em;
 	padding: 1.5vw;
 	margin-top: 45vh;
+	animation: slide-in 3s forwards; 
+	
+
+}
+
+@keyframes slide-in {
+	0%{
+	transform: translateX(-700px);
+	}
+	100%{
+	transform: translateX(0);
+	}
+
   }
 
   .intro{
@@ -44,10 +66,8 @@ a {
 	  padding-right: 1.5vw;
   }
 
-  .hide {
-	opacity: 0;
-	transition: 5s;
-  }
+
+
 
   .subtitle em{
 	  color: rgb(255, 111, 21);
@@ -66,6 +86,7 @@ a {
   .bottomlinetitle {
 	color: rgb(79, 77, 77);
 	opacity: 100%;
+
 }
 
   .subtitle {
@@ -205,8 +226,21 @@ em{
 
 .footer{
 	background-color: rgb(255, 111, 21);
-	position: static;
-	height: 10vh;
+	position: relative;
+	height: 9vh;
 	width: 100vw;
-
+	display:flex;
+	align-items: center;
+	justify-content: center;
 }
+
+.hide {
+	opacity: 0;
+	transition: 5s;
+}
+
+.appear{
+	opacity: 100;
+	transition: 2s;
+}
+
