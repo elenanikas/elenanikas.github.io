@@ -9,16 +9,14 @@ body {
 }
 
 a {
-	color:white;
+	color:rgb(255, 111, 21);;
 	text-decoration: none;	
-	padding-left: 1.5vw;
 	padding-bottom: 3vh;
-	font-size: 1.5vw;
+	font-weight: bold;
+
+	font-size: 2vw;
 	
 }
-
-
-
 
 * {
 	box-sizing: border-box;
@@ -33,9 +31,6 @@ a {
   .title {
 	font-size: 11vw;
 	color: rgb(255, 111, 21);
-	
-	
-	(171, 171, 171);
 	opacity:100%;
 	font-weight: bold;
 	line-height: 80%;
@@ -55,7 +50,7 @@ a {
   }
 
   .subtitle em{
-	  opacity: 60%;
+	  color: rgb(255, 111, 21);
 	  font-weight: bold;
   }
   
@@ -82,7 +77,7 @@ a {
 	left: 0px;
 	font-size: 3vw;
 	word-spacing: -.7vw;
-	margin-top: 6vh;
+	margin-top: 15vh;
 	background-color: white;
   }
   
@@ -180,6 +175,12 @@ text-indent: 0px;
 .lesspad{
 	padding: 0px;
 }
+.lessleft{
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 3vh;
+}
+
 
 .colorblue{
 	color:#016fb9 ;
@@ -187,7 +188,7 @@ text-indent: 0px;
 
 .textright p{
 	font-size: 1.5vw;
-	margin-top: 1.5vh;
+	margin-top: 3vh;
 	margin-bottom: 3vh;
 	font-weight: lighter;
 }
@@ -200,16 +201,10 @@ em{
 	font-weight: normal;
 }
 
-.cart{
-	font-weight: bold;
-	color: rgb(255, 111, 21);
-	font-size: 2vw;
-}
 
 
-.links{
+.footer{
 	background-color: rgb(255, 111, 21);
-	text-align: center;
 	position: static;
 	height: 10vh;
 	width: 100vw;
